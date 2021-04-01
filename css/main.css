@@ -97,10 +97,18 @@ footer {
     flex-flow: row wrap;
 }
 
+.content-wrapper {
+  width: 86%;
+}
+
+.content-wrapper h3 {
+  padding: 15px 0;
+}
+
 /* Header styles */
 
 header {
-
+  padding:15px 0;
 }
 
 header .content-wrapper {
@@ -108,10 +116,11 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
 }
 
 header .header-divider{
-
+  width: 44%;
 }
 
 header nav {
@@ -119,15 +128,26 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
+    padding: 19px 0;
 }
 
 header nav ul {
     display: flex;
     justify-content: space-around;
-
+    width: 44%;
 }
 
 /* Footer */
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+}
 
 footer .social-icons p {
     display: flex;
@@ -151,6 +171,7 @@ footer .social-icons {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    padding: 175px 0;
 }
 
 /* Aside */
@@ -160,14 +181,22 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 18px 0;
 }
 
 /* Features */
+
+.features p {
+  margin: 0;
+}
 
 .features {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    width: 55%;
+    padding: 68px 0;
+    margin: 0;
 }
 
 .features .features-items {
@@ -175,14 +204,17 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 53px 0;
 }
 
 /* Reviews */
 
-.reviews {
+.reviews h3 {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    width: 47%;
+    padding: 22px 0;
 }
 
 /* ===========================================================================
@@ -193,6 +225,7 @@ About Page
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 51px 0 46px 0;
 }
 
 
@@ -201,6 +234,7 @@ About Page
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 90px 0;
 }
 
 /* ===========================================================================
@@ -213,6 +247,7 @@ FAQ Page
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 49px 0;
 }
 
 .faq .content-wrapper {
@@ -220,6 +255,7 @@ FAQ Page
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 52px 0;
 }
 
 
